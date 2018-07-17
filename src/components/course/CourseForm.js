@@ -45,7 +45,7 @@ const CourseForm = ({
       />
       <input
         type="submit"
-        disabled="loading"
+        //disabled="loading"
         value={loading ? "Saving..." : "Save"}
         className="btn btn-primary"
         onClick={onSave}
